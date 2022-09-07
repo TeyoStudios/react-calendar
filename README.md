@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save calendar-react
+npm install --save react-calendar
 ```
 
 ## Usage
@@ -15,12 +15,12 @@ npm install --save calendar-react
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'calendar-react'
-import 'calendar-react/dist/index.css'
+import ReactCalendar from 'react-calendar'
+import 'react-calendar/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <ReactCalendar />
   }
 }
 ```
