@@ -1,0 +1,12 @@
+{
+  "days": [
+    "monday", 
+    "tuesday", 
+    "wednesday", 
+    "thursday", 
+    "friday", 
+    "saturday", 
+    "sunday"
+  ],
+  "startDay": "0"
+}
