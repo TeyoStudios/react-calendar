@@ -1,0 +1,63 @@
+.calendar {
+  // background-color: red;
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    // background-color: red;
+    padding: 6px 12px;
+
+    .right {
+      display: flex;
+
+    }
+  }
+
+  .weeks {
+    // background-color: blue;
+
+    .weekNames {
+      display: flex;
+
+      .nameDay {
+        display: flex;
+        justify-content: flex-end;
+
+        flex: 1;
+        width: 100px;
+
+        border: 1px solid #d1d1d1;
+        font-weight: bold;
+        padding: 6px 0;
+
+        justify-content: center !important;
+
+      }
+
+      // background-color: red;
+
+    }
+
+    .week {
+      display: flex;
+
+      .day {
+        display: flex;
+        justify-content: flex-end;
+        padding: 6px 12px;
+
+        flex: 1;
+        width: 100px;
+        height: 100px;
+
+        border: 1px solid #d1d1d1;
+
+        cursor: pointer;
+
+        .dayContent {
+
+        }
+      }
+    }
+  }
+}
